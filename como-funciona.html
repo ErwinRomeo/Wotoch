@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wotoch - ¿Cómo funciona?</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Configuración de Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'hero-tittle-color': '#D67840',
+                        'primary-brown': '#A25D53', // Color principal para botones y logo
+                        'light-brown': '#E8DDC8', // Color de fondo claro o secundario
+                        'text-brown': '#000000', // Color de texto oscuro
+                        // Nuevos colores para la página "Quiénes Somos"
+                        'teal-brand': '#0D9488', // Teal para el título
+                        'sdg-12': '#C99933', // Dorado ODS 12
+                        'sdg-11': '#E66A27', // Naranja ODS 11
+                        'sdg-13': '#408246', // Verde ODS 13
+                    },
+                    fontFamily: {
+                        sans: ['Lexend'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Carga de estilos personalizados -->
+    <link rel="stylesheet" href="styleInicio.css">
+    <link rel=" "
+
+</head>
+<body class="bg-white text-text-brown font-sans antialiased">
+
+    <!-- Navbar -->
+    <header class="shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            
+            <!-- Logo (WOTOCH con Techo usando SVG) -->
+            <a href="Inicio.html" class="flex flex-col items-start leading-none -space-y-2">
+                <!-- SVG del techo -->
+                <svg width="135" height=" " viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-primary-brown">
+                    <polyline points="0,18 50,2 100,18" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <!-- Texto WOTOCH -->
+                <div class="text-3xl font-bold tracking-tight text-primary-brown pt-1">WOTOCH</div>
+            </a>
+
+            <!-- Menú de navegación y botones de acción -->
+            <nav class="flex items-center space-x-4 lg:space-x-6">
+                <!-- Enlaces de navegación -->
+                <a href="inicio.html" class="hidden md:inline text-gray-700 hover:text-primary-brown nav-link-animated">Inicio</a>
+                <a href="como-funciona.html" class="hidden md:inline text-primary-brown font-semibold nav-link-animated">¿Cómo funciona?</a>
+                <!-- ¡CAMBIO! Este es ahora el enlace activo -->
+                <a href="quienes-somos.html" class="hidden md:inline text-gray-700 hover:text-primary-brown nav-link-animated">¿Quiénes somos?</a>
+
+                <!-- Botones de acción -->
+                <button class="px-5 py-2.5 text-white bg-primary-brown hover:bg-opacity-90 rounded-xl transition duration-300 shadow-md">
+                    Iniciar sesión
+                </button>
+                <button class="px-5 py-2.5 text-text-brown bg-light-brown hover:bg-opacity-80 rounded-xl transition duration-300 shadow-md">
+                    Regístrate
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20">
+        <!-- Sección de Contenido "Cómo funciona" -->
+       
+
+    </main>
+
+    <!-- Script de JavaScript (Modal) -->
+</body>
+</html>
