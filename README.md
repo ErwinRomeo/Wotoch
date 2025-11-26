@@ -1,27 +1,37 @@
-```markdown
-# 🌱 Wotoch – Donaciones con Propósito  
-> Plataforma web que conecta a quienes ya no necesitan algo con quienes aún lo necesitan, impulsando los Objetivos de Desarrollo Sostenible (ODS) 11, 12 y 13.
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow.svg)](https://github.com/tu-usuario/wotoch/tree/front-end)
+# 🌱 Wotoch – Donaciones con Propósito  
+> Creamos puentes entre quienes ya no necesitan algo y quienes aún lo necesitan, reduciendo desigualdades y desperdicio en la Ciudad de México.
+
+[![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow.svg)](https://github.com/ErwinRomeo/Wotoch/tree/front-end)
 
 ---
 
-## 📌 ¿Qué es Wotoch?
-Wotoch es un **marketplace de donaciones** sin fines de lucro que facilita:
-- Publicar objetos en buen estado.
-- Buscar y solicitar artículos cercanos geográficamente.
-- Acordar puntos de entrega seguros y horarios compatibles.
-- Generar **métricas de impacto ambiental** (kg de CO₂ evitado, residuos desviados, etc.).
+## 📌 Visión del proyecto
+La desigualdad económica, el desperdicio de recursos y la falta de canales eficientes para ayudar a quienes más lo necesitan afectan directamente la calidad de vida en la Ciudad de México.  
+**Wotoch** es una plataforma web que conecta a personas, empresas e instituciones con causas sociales, ambientales y de bienestar comunitario para donar alimentos, ropa, medicinas y artículos tecnológicos, promoviendo una cultura de solidaridad y aprovechamiento responsable de recursos.  
+Con esta iniciativa contribuimos a los **Objetivos 1 (Fin de la pobreza), 2 (Hambre cero), 10 (Reducción de las desigualdades) y 12 (Producción y consumo responsables)** de la Agenda 2030, fomentando una CDMX más equitativa, sostenible y unida.
 
 ---
 
 ## 🎯 Objetivos de Desarrollo Sostenible
-| ODS | Color brand | Enfoque |
-|-----|-------------|---------|
-| **11** ‑ Ciudades sostenibles | `#E66A27` | Fomentar economía circular local |
-| **12** ‑ Producción responsable | `#C99933` | Extender vida útil de productos |
-| **13** ‑ Acción por el clima | `#408246` | Reducir emisiones vía reutilización |
+| ODS | Enfoque |
+|-----|---------|
+| **11** ‑ Ciudades sostenibles | Fomentar economía circular local |
+| **12** ‑ Producción responsable | Extender vida útil de productos |
+| **13** ‑ Acción por el clima | Reducir emisiones vía reutilización |
+
+---
+
+## 👥 Integrantes & Responsabilidades
+| Nombre | Rol principal | Funciones clave |
+|--------|---------------|-----------------|
+| **Balam Álvarez** | Líder de proyecto / QA | Documentación, pruebas de calidad y control de versiones |
+| **Erwin Amezcua** | Front-end / DevOps | Desarrollo general de la página web y gestión del repositorio |
+| **Kamila Pineda** | Back-end / Diseñadora | Diseño en Figma e integración con base de datos Firebase |
+| **Victoria Hernández** | Front-end / Analista | Flujo Lucidchart, diseño en Figma y desarrollo de vistas |
+| **Isaac Silis** | Back-end | Implementación y mantenimiento de base de datos Firebase |
+
+*Para tareas detalladas por sprint consultar la hoja «Backlog» del enlace abajo.*
 
 ---
 
@@ -33,33 +43,29 @@ Accede al mapa completo de procesos y casos de uso:
 
 ## 📊 Backlog & Roadmap
 Plan de tareas, responsables y fechas (Google Sheets público):  
-🔗 [Wotoch Backlog](https://docs.google.com/spreadsheets/d/18nbPCQ-pjm2xrMYsJirmiHzWuVViae6b/edit?gid=1535348654#gid=1535348654)
+🔗 [Wotoch Backlog](https://docs.google.com/spreadsheets/d/18nbPCQ-pjm2xrMYsJirmiHzWuVViae6b/edit?usp=sharing&ouid=114746856715131739508&rtpof=true&sd=true)
 
 ---
 
 ## 🧪 Tecnologías
 | Capa | Stack |
 |------|-------|
-| **Front-end** | HTML5, Tailwind CSS 3, JavaScript vanilla |
-| **Back-end** | Java 17, Servlet API, MySQL 8 |
-| **Entorno local** | XAMPP (Apache + MySQL) |
-| **Repo** | GitHub Flow – rama `front-end` protegida vía PR |
+| **Front-end** | HTML5, CSS3, JavaScript vanilla |
+| **Back-end** | Firebase (Auth & Firestore) |
+| **Diseño** | Figma, Lucidchart |
+| **Control de versiones** | GitHub Flow – rama `front-end` protegida vía PR |
 
 ---
 
-## 🚀 Instalación local (XAMPP)
-1. Clona el repo dentro de `htdocs`:
+## 🚀 Instalación local
+1. Clona el repo:
    ```bash
-   git clone https://github.com/tu-usuario/wotoch.git C:/xampp/htdocs/wotoch
+   git clone https://github.com/ErwinRomeo/Wotoch.git
    ```
-2. Inicia **Apache** y **MySQL** desde el panel de XAMPP.
-3. Importa la base de datos:
-   ```sql
-   mysql -u root < database/wotoch.sql
+2. Abre `index.html` en tu navegador o sirve la carpeta con Live Server.  
+3. (Opcional) Si usas XAMPP, coloca la carpeta en `htdocs/wotoch` y visita:
    ```
-4. Accede a:
-   ```
-   http://localhost/wotoch/index.html
+   http://localhost/wotoch
    ```
 
 ---
@@ -67,9 +73,9 @@ Plan de tareas, responsables y fechas (Google Sheets público):
 ## 📂 Estructura del proyecto
 ```
 wotoch/
-├─ database/          # Scripts SQL
-├─ src/               # Código Java (DAO, Servlets)
-├─ web/               # Assets del front
+├─ database/          # Reglas y mockups de Firebase
+├─ src/               # Lógica Java (próximamente)
+├─ web/
 │  ├─ css/            # styles.css, styleInicio.css
 │  ├─ js/             # main.js, mobile-*.js
 │  ├─ img/            # Imágenes públicas
@@ -82,35 +88,35 @@ wotoch/
 
 ## 🔧 Funcionalidades clave implementadas
 ### Frontend
-- **Navbar universal responsivo** con menú hamburguesa sin solapamiento
-- **Modales login/registro** accesibles desde cualquier vista
-- **Tooltips informativos** con posicionamiento manual mobile-first
-- **Optimización móvil** para pantallas ≤ 375px
-- **Animaciones suaves** con CSS transitions
+- **Navbar universal responsivo** con menú hamburguesa sin solapamiento  
+- **Modales login/registro** accesibles desde cualquier vista  
+- **Tooltips informativos** con posicionamiento manual mobile-first  
+- **Optimización móvil** para pantallas ≤ 375 px  
+- **Animaciones suaves** con CSS transitions  
 
-### Backend (en desarrollo)
-- **Servlet de autenticación** con validación en tiempo real
-- **DAO pattern** para acceso a datos
-- **Métricas de impacto ambiental** calculadas automáticamente
+### Backend
+- **Autenticación con Firebase** (email/google)  
+- **Firestore** para publicaciones y donaciones  
+- **Reglas de seguridad** activas en modo prueba  
 
 ---
 
 ## 🧪 Cómo contribuir
-1. Crea un fork y una rama desde `front-end`.
-2. Nombra tu rama: `feat/login-modal` o `fix/navbar-z-index`.
-3. Asegura **Lighthouse ≥ 95** en Performance y Accesibilidad.
+1. Crea un fork y una rama desde `front-end`.  
+2. Nombra tu rama: `feat/login-modal` o `fix/navbar-z-index`.  
+3. Asegura **Lighthouse ≥ 95** en Performance y Accesibilidad.  
 4. Abre **Pull Request** con capturas de móvil y desktop.
 
 ---
 
 ## 📄 Licencia
-MIT – ver archivo [LICENSE](LICENSE).
+ [![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow.svg)](LICENSE)
 
 ---
 
 ## 📬 Contacto
 ¿Dudas o sugerencias?  
-Abre un **Issue** o escríbenos a: **wotoch@tudominio.com**
+Abre un **Issue**
 
 ---
 **¡Juntos hacemos del planeta un lugar mejor, una donación a la vez!** 🌍💚
