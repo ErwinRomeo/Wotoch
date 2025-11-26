@@ -1,28 +1,28 @@
 
-# 🌱 Wotoch – Donaciones con Propósito  
-> Creamos puentes entre quienes ya no necesitan algo y quienes aún lo necesitan, reduciendo desigualdades y desperdicio en la Ciudad de México.
+# Wotoch – Donaciones con Propósito  
+> Donde la generosidad se hace verbo
 
 [![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow.svg)](https://github.com/ErwinRomeo/Wotoch/tree/front-end)
 
 ---
 
-## 📌 Visión del proyecto
+## Visión del proyecto
 La desigualdad económica, el desperdicio de recursos y la falta de canales eficientes para ayudar a quienes más lo necesitan afectan directamente la calidad de vida en la Ciudad de México.  
 **Wotoch** es una plataforma web que conecta a personas, empresas e instituciones con causas sociales, ambientales y de bienestar comunitario para donar alimentos, ropa, medicinas y artículos tecnológicos, promoviendo una cultura de solidaridad y aprovechamiento responsable de recursos.  
 Con esta iniciativa contribuimos a los **Objetivos 1 (Fin de la pobreza), 2 (Hambre cero), 10 (Reducción de las desigualdades) y 12 (Producción y consumo responsables)** de la Agenda 2030, fomentando una CDMX más equitativa, sostenible y unida.
 
 ---
 
-## 🎯 Objetivos de Desarrollo Sostenible
+## Objetivos de Desarrollo Sostenible
 | ODS | Enfoque |
 |-----|---------|
 | **11** ‑ Ciudades sostenibles | Fomentar economía circular local |
-| **12** ‑ Producción responsable | Extender vida útil de productos |
-| **13** ‑ Acción por el clima | Reducir emisiones vía reutilización |
+| **12** ‑ Producción y consumo responsable | Extender vida útil de productos, no comprar más de lo necesario y no desperdiciar productos perecederos |
+| **13** ‑ Acción por el clima | Reducir emisiones mediante la reutilización de artículos|
 
 ---
 
-## 👥 Integrantes & Responsabilidades
+## Integrantes & Responsabilidades
 | Nombre | Rol principal | Funciones clave |
 |--------|---------------|-----------------|
 | **Balam Álvarez** | Líder de proyecto / QA | Documentación, pruebas de calidad y control de versiones |
@@ -35,19 +35,19 @@ Con esta iniciativa contribuimos a los **Objetivos 1 (Fin de la pobreza), 2 (Ham
 
 ---
 
-## 🗺️ Diagrama de flujo general
+## Diagrama de flujo general
 Accede al mapa completo de procesos y casos de uso:  
 🔗 [Lucidchart – Wotoch Flow](https://lucid.app/lucidchart/d254030a-4693-4ec3-8a98-662c5f355852/edit?view_items=IAwLaaGdBQIP&page=0_0&invitationId=inv_f0496778-b23d-48ff-af34-8d1640841b2a)
 
 ---
 
-## 📊 Backlog & Roadmap
+## Backlog & Roadmap
 Plan de tareas, responsables y fechas (Google Sheets público):  
 🔗 [Wotoch Backlog](https://docs.google.com/spreadsheets/d/18nbPCQ-pjm2xrMYsJirmiHzWuVViae6b/edit?usp=sharing&ouid=114746856715131739508&rtpof=true&sd=true)
 
 ---
 
-## 🧪 Tecnologías
+## Tecnologías
 | Capa | Stack |
 |------|-------|
 | **Front-end** | HTML5, CSS3, JavaScript vanilla |
@@ -57,7 +57,7 @@ Plan de tareas, responsables y fechas (Google Sheets público):
 
 ---
 
-## 🚀 Instalación local
+## Instalación local
 1. Clona el repo:
    ```bash
    git clone https://github.com/ErwinRomeo/Wotoch.git
@@ -70,7 +70,7 @@ Plan de tareas, responsables y fechas (Google Sheets público):
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 ```
 wotoch/
 ├─ database/          # Reglas y mockups de Firebase
@@ -86,7 +86,7 @@ wotoch/
 
 ---
 
-## 🔧 Funcionalidades clave implementadas
+## Funcionalidades clave implementadas
 ### Frontend
 - **Navbar universal responsivo** con menú hamburguesa sin solapamiento  
 - **Modales login/registro** accesibles desde cualquier vista  
@@ -101,7 +101,7 @@ wotoch/
 
 ---
 
-## 🧪 Cómo contribuir
+## Cómo contribuir
 1. Crea un fork y una rama desde `front-end`.  
 2. Nombra tu rama: `feat/login-modal` o `fix/navbar-z-index`.  
 3. Asegura **Lighthouse ≥ 95** en Performance y Accesibilidad.  
@@ -109,12 +109,12 @@ wotoch/
 
 ---
 
-## 📄 Licencia
+## Licencia
  [![Status](https://img.shields.io/badge/status-en%20desarrollo-yellow.svg)](LICENSE)
 
 ---
 
-## 📬 Contacto
+## Contacto
 ¿Dudas o sugerencias?  
 Abre un **Issue**
 
